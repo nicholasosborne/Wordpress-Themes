@@ -1,0 +1,389 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+body{
+background: url(../images/background-main.jpg) no-repeat right top fixed; 
+background-size: cover;
+}
+
+/*Header and Nav*/
+
+header{
+top: 0px;
+left: 0px;
+right: 0px;
+height: 58px;
+position: fixed;
+background: url(../images/header-end.jpg) no-repeat fixed left top,url(../images/header-end.jpg) no-repeat fixed right top, url(../images/header-repeat.jpg) repeat-x fixed;
+}
+
+
+#menu-navigation{
+margin: 20px 0 0 0;
+display: inline;
+float: left;
+}
+
+
+#menu-navigation > li{
+padding: 0 4px 0 3px;
+display: inline;
+list-style: none;
+border-right: solid 1px #e5dfd4;
+}
+
+#menu-navigation > li:last-child{
+border: none;
+}
+
+#menu-navigation > li > a:link, #menu-navigation > li > a:visited{
+color: #e5dfd4;
+text-decoration: none;
+font-family: Verdana;
+font-size: 14px;
+text-transform: uppercase;
+}
+
+#menu-navigation > li > a:hover{
+text-decoration: underline;
+}
+
+#social{
+display: inherit;
+float: right;
+margin: 10px 0 0 0;
+width: 165px;
+}
+
+#social > a > li{
+display: inline;
+list-style: none;
+margin: 0px 3px 0px 3px;
+}
+
+#social > a > li:hover{
+opacity: 0.8;
+}
+ 
+#facebook {
+  background: url(../images/social.png) 0px 0px no-repeat;
+  width: 35px;
+  height: 35px;
+  float: left;
+}
+
+#tumblr {
+  background: url(../images/social.png) -37px -37px no-repeat;
+  width: 35px;
+  height: 34px;
+  float: left;
+}
+
+#twitter {
+  background: url(../images/social.png) -38px 0px no-repeat;
+  width: 35px;
+  height: 35px;
+  float: left;
+}
+
+#youtube {
+  background: url(../images/social.png) 0px -37px no-repeat;
+  width: 35px;
+  height: 35px;
+  float: left;
+}
+
+/*Main Content Area */
+
+#content{
+float: left;
+margin-top: 20px;
+width: 756px;
+margin-left: 105px;
+}
+
+.front-page-item{
+display: block;
+padding: 12px;
+margin: 0 0 15px 0;
+background-color: #f0eee7;
+background: rgba(240,238,231,.90);
+border-radius: 15px;
+}
+
+.item-title{
+text-align: right;
+float: left;
+width: 150px;
+margin-left: -180px;
+font-family: Verdana;
+color: #212120;
+font-size: 22px;
+
+}
+
+.item-social{
+float: right;
+margin-top: 0px;
+margin-right: -70px;
+width: 50px;
+}
+
+.twitter-share-button{
+margin-top: 10px;
+}
+
+.pagination a:link, .pagination a:hover, pagination a:visited{
+font-family: Verdana;
+font-size: 13px;
+line-height: 18px;
+text-decoration: none;
+color: #55647a;
+}
+
+.bottom-padding{
+margin-bottom: 100px;
+}
+
+#news{
+display: block;
+}
+
+#main{
+margin-top: 70px;
+display: block;
+}
+
+.news-item{
+float: left;
+width: 730px;
+}
+
+.news-thumb{
+width: 116px;
+height: 116px;
+float: left;
+margin: 0 10px 0 0;
+}
+
+.news-title{
+font-family: Verdana;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 17px;
+line-height: 19px;
+color: #55647a;
+display: block;
+}
+
+
+
+.news-title > a:link, .news-title > a:hover, .news-title > a:visited{
+text-decoration: none;
+color: #55647a;
+
+}
+
+
+.news-date{
+font-family: Verdana;
+display: block;
+font-size: 12px;
+line-height: 18px;
+}
+
+
+.news-content{
+margin: 5px 3px 0 0;
+display: block;
+font-family: Verdana;
+font-size: 13px;
+line-height: 18px;
+}
+
+.news-content h2{
+display: block;
+padding: 3px 0 3px 0;
+font-family: Verdana;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+}
+
+.news-content p{
+display: block;
+padding: 0 0 3px 0;
+}
+
+.news-content a:link, .news-content a:hover, .news-content a:visited{
+text-decoration: none;
+color: #55647a;
+}
+
+#video{
+float: left;
+margin-top: 20px;
+width: 382px;
+height: 270px;
+}
+
+#video-thumb{
+float: left;
+width: 382px;
+height: 251px;
+}
+
+#video-title{
+float: left;
+margin-top: 8px;
+font-family: Verdana;
+font-size: 12px;
+}
+
+#video-more{
+margin-top: 4px;
+float: right;
+font-family: "Arial Narrow",Arial;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 14px;
+}
+
+#video-more > a:link, #video-more > a:visited, #video-more > a:hover{
+color: #55647a;
+text-decoration: none;
+}
+
+#video > a:link, #video > a:visited, #video > a:hover, #tweet-follow > a:link, #tweet-follow > a:hover, #tweet-follow > a:visited {
+text-decoration: none;
+color: #000;
+}
+
+
+#twitter-box{
+float: left;
+margin: 20px 0 0 20px;;
+width: 305px;
+height: 270px;
+}
+
+#twitter-box h2{
+font-family: Verdana;
+font-size: 24px;
+display: block;
+color: #000;
+margin: 0 0 10px 0;
+
+}
+
+.tweet{
+font-family: Verdana;
+font-size: 13px;
+line-height: 16px;
+margin-bottom: 8px;
+display: block;
+}
+
+.tweet > a:link, .tweet > a:hover, .tweet > a:visited{
+text-decoration: none;
+color: #55647a;
+}
+
+#tweet-follow{
+color: #55647a;
+margin-top: 4px;
+float: left;
+font-family: "Arial Narrow",Arial;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 14px;
+}
+
+
+#photo-box{
+float: left;
+display: block;
+height: 113px;
+width: 733px;
+margin: 20px 0 100px 0;
+}
+
+#photo-box ul{
+display: inline;
+list-style: none;
+}
+
+#photo-box li{
+margin: 0 5px 20px 4px;
+float: left;
+list-style: none;
+width: 113px;
+height: 113px;
+}
+
+.video-wrapper{
+float: left;
+display: block;
+width: 330px;
+padding: 5px;
+}
+
+#video-page-thumb{
+float: left;
+width: 320px;
+height: 180px;
+}
+
+#video-page-title{
+float: left;
+margin-top: 8px;
+font-family: Verdana;
+font-size: 12px;
+}
+
+
+
+/*Footer Area */
+
+footer{
+bottom: 0px;
+left: 0px;
+right: 0px;
+height: 44px;
+position: fixed;
+background: #DBDFE4; 
+}
+
+#wrapper{
+margin-top: 70px;
+margin-bottom: 60px;
+height: 600px;
+}
+
+.wrapper{
+
+width: 950px;
+height: 100%;
+margin: 0 auto;
+background: rgba(0,0,0,0);
+
+}
+
+
+.click{
+cursor: pointer;
+}
+
+/* LAYOUT */
+/* ----------------------------------------- */
+
+/* These rather presentational classes are generated by WordPress, so it's useful to have some styles for them. Edit as you see fit. More info: http://codex.wordpress.org/CSS */
+.aligncenter { display:block; margin:0 auto }
+.alignleft { float:left }
+.alignright { float:right }
+.wp-caption { border:1px solid #666; text-align:center; background:#ccc; padding:10px; margin:10px }
+
+/* You might find the following useful */
+/* div, ul, li { position:relative } This will save you having to declare each div / ul / li's position as 'relative' and allows you to absolutely position elements inside them */
+br.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 } /* Use this br class to clear your floated columns */
+li#theme-switcher { background:#fff; border:10px solid red; padding:20px; position:fixed; top:0; right:0 } /* Use this if you have the Theme Switcher Reloaded plugin (http://themebot.com/webmaster-tools/1-wordpress-theme-switcher-reloaded) installed and want to make it nice and obvious */
